@@ -1,0 +1,30 @@
+{
+  "name": "vite-element",
+  "version": "1.0.1",
+  "description": "This is a tool for generating vite templates.",
+  "main": "index.js",
+  "bin": {
+    "run": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite",
+    "elementUI"
+  ],
+  "author": "cairbin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.0",
+    "ora": "^5.1.0",
+    "shell": "^0.5.1",
+    "shelljs": "^0.8.5",
+    "symbol": "^0.3.1"
+  }
+}
