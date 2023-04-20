@@ -58,7 +58,8 @@ You must change `package.json` to ensure that the package name and other fields 
     "consoleLogo":"Vite-Element",
     "remote":"http://github.com/cairbin/ViteElementTemplate.git",
     "branch":"main",
-    "registry":"https://registry.npmjs.org/"
+    "registry":"https://registry.npmjs.org/",
+    "mirror":"https://registry.npm.taobao.org/"
 }
 ```
 
@@ -66,6 +67,7 @@ You must change `package.json` to ensure that the package name and other fields 
 * `remote` The github repository of your templates.
 * `branch` Repository branch
 * `registry` The registry of npm
+* `mirror` Mirror registry of npm
 
 ## Publish
 
