@@ -43,7 +43,8 @@ You must change `package.json` to ensure that the package name and other fields 
     "ora": "^5.1.0",
     "shell": "^0.5.1",
     "shelljs": "^0.8.5",
-    "symbol": "^0.3.1"
+    "symbol": "^0.3.1",
+    "log-symbols":"^4.1.0"
   }
 }
 ```
