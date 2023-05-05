@@ -1,0 +1,27 @@
+{
+    "console_logo":"ScaffoldMaker",
+    "npm":{
+        "registry":"https://registry.npmjs.org/",
+        "mirrors":{
+            "taobao":"https://registry.npm.taobao.org/",
+            "cnpm":"http://registry.cnpmjs.org "
+        }
+    },
+    "templates":{
+        "remote":{
+            "ExpressTemplate":{
+                "clone": "https://github.com/CairBin/ExpressTemplate.git#main",
+                "zip": "https://codeload.github.com/CairBin/ExpressTemplate/zip/refs/heads/main",
+                "mirrors": {
+                    "GitCode": {
+                        "clone":"https://gitcode.net/qq_42759112/ExpressTemplate.git#main",
+                        "zip":"https://gitcode.net/qq_42759112/ExpressTemplate/-/archive/main/ExpressTemplate-main.zip"
+                    }
+                }
+            }
+        },
+        "local":{
+            "ExpressTemplate":"ExpressTemplate"
+        }
+    }
+}
