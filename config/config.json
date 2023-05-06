@@ -1,10 +1,10 @@
 {
-    "console_logo":"ScaffoldMaker",
+    "console_logo":"SuperExp",
     "npm":{
         "registry":"https://registry.npmjs.org/",
         "mirrors":{
-            "taobao":"https://registry.npm.taobao.org/",
-            "cnpm":"http://registry.cnpmjs.org "
+            "taobao":"https://registry.npmmirror.com/",
+            "cnpmJs":"https://r.cnpmjs.org/"
         }
     },
     "templates":{

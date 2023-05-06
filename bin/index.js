@@ -8,13 +8,13 @@ program
     .command('create [name]')
     .description('create a new project')
     .option('-l, --local', 'obtain templates locally')
-    .option('-f, --force', 'overwrite target directory if it exist')
+    .option('-f, --force', 'overwrite target directory if it exists')
     .action((name, options) => {
         require('./../lib/create/index.js')(name,options)
     })
 
 program
-    .version(`v${require('../package.json').version}`)
+    .version(`v${require('../package.json').version}`,'-v, --version')
     .usage('<command> [option]')
 
 program
